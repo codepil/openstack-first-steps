@@ -17,8 +17,12 @@ To run tempest test
   - not useful -> http://fosshelp.blogspot.com/2014/02/how-to-manually-install-openstack.html?m=1
   - sudo pip install tempest
   - tempest init cloud-01
-  - cd cloud-01 & verofied there is default tempest.conf file in etc folder
+  - cd cloud-01 & verofied there is default tempest.sample.conf file in etc folder
+  - rename the file to tempest.conf, and 
+    - update auth_urls for v2 and v3, and user name and password for 'admin' user
+    - clouds.yaml can be downloaded from API section of dashboard which contains pertaining details.
   - tempest run --workspace clould-01   --> failed with auth ..etc errors
+    - before running tests make sure increase the volume size to 16 GB.
 
 
 Reference notes from ./stack.sh output:
