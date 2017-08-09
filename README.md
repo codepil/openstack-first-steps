@@ -13,8 +13,12 @@ For running openstack CLI  ( ref: https://docs.openstack.org/heat/latest/getting
  - source openrc  (used default values) 
  - tested with "openstack image list" command -> success
  
-To run tempest test ( ref: http://fosshelp.blogspot.com/2014/02/how-to-manually-install-openstack.html?m=1)
- - 
+To run tempest test 
+  - not useful -> http://fosshelp.blogspot.com/2014/02/how-to-manually-install-openstack.html?m=1
+  - sudo pip install tempest
+  - tempest init cloud-01
+  - cd cloud-01 & verofied there is default tempest.conf file in etc folder
+  - tempest run --workspace clould-01   --> failed with auth ..etc errors
 
 
 Reference notes from ./stack.sh output:
