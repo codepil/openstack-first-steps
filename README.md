@@ -14,7 +14,7 @@ For running openstack CLI  ( ref: https://docs.openstack.org/heat/latest/getting
  - tested with "openstack image list" command -> success
  
 To run tempest test 
-  - not useful -> http://fosshelp.blogspot.com/2014/02/how-to-manually-install-openstack.html?m=1
+  - ref: readme @ https://github.com/openstack/tempest
   - sudo pip install tempest
   - tempest init cloud-01
   - cd cloud-01 & verofied there is default tempest.sample.conf file in etc folder
