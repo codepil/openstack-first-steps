@@ -1,8 +1,6 @@
 heat_template_version: 2013-05-23
 
 description: >
-  Heat WordPress template to support F20, using only Heat OpenStack-native
-  resource types, and without the requirement for heat-cfntools in the image.
   WordPress is web software you can use to create a beautiful website or blog.
   This template installs a single-instance WordPress deployment using a local
   MySQL database to store the data.
